@@ -190,6 +190,10 @@ static const NSUInteger kFirstTableSection = 0;
  */
 - (void)tableView:(UITableView*)tableView
         accessoryButtonTappedForRowWithIndexPath:(NSIndexPath*)indexPath {
+  
+  //renyi added
+  [_controller didAccessoryButtonTappedAtIndexPath:indexPath];    
+
   id<TTTableViewDataSource> dataSource = (id<TTTableViewDataSource>)tableView.dataSource;
   id object = [dataSource tableView:tableView objectForRowAtIndexPath:indexPath];
   if ([object isKindOfClass:[TTTableLinkedItem class]]) {
