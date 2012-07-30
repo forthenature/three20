@@ -170,10 +170,10 @@ static const CGFloat kControlPadding = 8.0f;
       contentWidth = _control.width;
     }
 
-    //renyi add,这样用户可以自行控制位置  
+    //renyi add,这样用户可以自行控制位置
     minX =  MAX(minX, _control.frame.origin.x);
-    contentWidth = MIN(contentWidth, _control.width);      
-    
+    contentWidth = MIN(contentWidth, _control.width);
+
     // XXXjoe For some reason I need to re-add the control as a subview or else
     // the re-use of the cell will cause the control to fail to paint itself on occasion
     [self.contentView addSubview:_control];

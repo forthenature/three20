@@ -23,6 +23,7 @@
 #import "ButtonTestController.h"
 #import "TabBarTestController.h"
 #import "DownloadProgressTestController.h"
+#import "TablePullUpRefreshViewController.h"
 
 @implementation AppDelegate
 
@@ -108,6 +109,11 @@
   [map            from: @"tt://tableDragRefresh"
                 parent: @"tt://catalog"
       toViewController: [TableDragRefreshController class]
+              selector: nil
+            transition: 0];
+  [map            from: @"tt://tablePullUpRefresh"
+                parent: @"tt://catalog"
+      toViewController: [TablePullUpRefreshViewController class]
               selector: nil
             transition: 0];
 

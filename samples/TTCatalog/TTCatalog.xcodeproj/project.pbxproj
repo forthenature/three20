@@ -58,6 +58,7 @@
 		BEF199220F818E720010D36E /* StyledTextTableTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF1991F0F818E720010D36E /* StyledTextTableTestController.m */; };
 		BEF199230F818E720010D36E /* StyledTextTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF199210F818E720010D36E /* StyledTextTestController.m */; };
 		BEF6EC370F280CB300CF4096 /* ScrollViewTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF6EC360F280CB300CF4096 /* ScrollViewTestController.m */; };
+		C65CAF2015BD557100CB709A /* TablePullUpRefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C65CAF1F15BD557100CB709A /* TablePullUpRefreshViewController.m */; };
 		E46662FE127F91A4001A0F20 /* TableWithBannerController.m in Sources */ = {isa = PBXBuildFile; fileRef = E46662FD127F91A4001A0F20 /* TableWithBannerController.m */; };
 		E4D1D1D61306D2670090AE0C /* TableDragRefreshController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D1D1D51306D2670090AE0C /* TableDragRefreshController.m */; };
 /* End PBXBuildFile section */
@@ -297,6 +298,8 @@
 		BEF199210F818E720010D36E /* StyledTextTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyledTextTestController.m; sourceTree = "<group>"; };
 		BEF6EC350F280CB300CF4096 /* ScrollViewTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewTestController.h; sourceTree = "<group>"; };
 		BEF6EC360F280CB300CF4096 /* ScrollViewTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewTestController.m; sourceTree = "<group>"; };
+		C65CAF1E15BD557100CB709A /* TablePullUpRefreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TablePullUpRefreshViewController.h; sourceTree = "<group>"; };
+		C65CAF1F15BD557100CB709A /* TablePullUpRefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TablePullUpRefreshViewController.m; sourceTree = "<group>"; };
 		E46662FC127F91A4001A0F20 /* TableWithBannerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableWithBannerController.h; sourceTree = "<group>"; };
 		E46662FD127F91A4001A0F20 /* TableWithBannerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableWithBannerController.m; sourceTree = "<group>"; };
 		E4D1D1D41306D2670090AE0C /* TableDragRefreshController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableDragRefreshController.h; sourceTree = "<group>"; };
@@ -547,6 +550,8 @@
 			children = (
 				E4D1D1D41306D2670090AE0C /* TableDragRefreshController.h */,
 				E4D1D1D51306D2670090AE0C /* TableDragRefreshController.m */,
+				C65CAF1E15BD557100CB709A /* TablePullUpRefreshViewController.h */,
+				C65CAF1F15BD557100CB709A /* TablePullUpRefreshViewController.m */,
 			);
 			name = "Table Drag Refresh";
 			sourceTree = "<group>";
@@ -1015,6 +1020,7 @@
 				E4D1D1D61306D2670090AE0C /* TableDragRefreshController.m in Sources */,
 				7000C4C0130CCAE3006D7ADE /* DownloadTestModel.m in Sources */,
 				7000C4C1130CCAE3006D7ADE /* DownloadProgressTestController.m in Sources */,
+				C65CAF2015BD557100CB709A /* TablePullUpRefreshViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

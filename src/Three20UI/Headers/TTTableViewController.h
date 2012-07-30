@@ -131,7 +131,8 @@
 /**
  * Tells the controller that the user selected tapped the accessory.
  * By default, the method will do nothing. It will be called before any other operate in
- * - (void)tableView:(UITableView*)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath*)indexPath
+ * - (void)tableView:(UITableView*)tableView
+ * accessoryButtonTappedForRowWithIndexPath:(NSIndexPath*)indexPath
  * in TTTableViewDelegate.
  * renyi added on 20120715
  */
